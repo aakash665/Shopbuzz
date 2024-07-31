@@ -1,0 +1,31 @@
+.analytics {
+    padding: 20px;
+    text-align: center;
+}
+
+.analytics h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.analytics-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+}
+
+.analytics-card h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.analytics-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}

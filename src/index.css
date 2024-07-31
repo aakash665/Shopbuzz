@@ -1,0 +1,91 @@
+/* Reset some basic styles for a clean slate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a default font for the application */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+/* Basic styling for headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+/* Basic styling for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container styling to center content and set max-width */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Card styling for product and other cards */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+
+  .card {
+      margin: 5px;
+  }
+}

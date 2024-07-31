@@ -1,0 +1,50 @@
+.home-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.product-card h3 {
+    margin-top: 0;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}

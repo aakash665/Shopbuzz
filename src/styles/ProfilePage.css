@@ -1,0 +1,37 @@
+.profile-page-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    object-fit: cover;
+}
+
+.profile-info {
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.profile-info h3 {
+    margin-top: 0;
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
